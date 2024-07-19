@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Realizar registro de usuario nuevo" skipped="0" tests="1" time="16.19" timestamp="2024-07-19 06:01:48"><testcase name="Realizar registro en la pagina product store"><error message="The following error occurred: Element &lt;a id=&quot;login2&quot; class=&quot;nav-link&quot; href=&quot;#&quot;&gt; is not clickable at point (1018,37) because another element &lt;div id=&quot;signInModal&quot; class=&quot;modal fade show&quot;&gt; obscures it&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'KATE', ip: '192.168.1.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.14'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5244, moz:profile: C:\Users\KATEPA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 829de689-9c90-495c-b803-80635f2aee8a" type="org.openqa.selenium.ElementClickInterceptedException">The following error occurred: Element &lt;a id="login2" class="nav-link" href="#"&gt; is not clickable at point (1018,37) because another element &lt;div id="signInModal" class="modal fade show"&gt; obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KATE', ip: '192.168.1.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5244, moz:profile: C:\Users\KATEPA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 829de689-9c90-495c-b803-80635f2aee8a</error><system-err>The following error occurred: Element &lt;a id="login2" class="nav-link" href="#"&gt; is not clickable at point (1018,37) because another element &lt;div id="signInModal" class="modal fade show"&gt; obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'KATE', ip: '192.168.1.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240321230221, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5244, moz:profile: C:\Users\KATEPA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 829de689-9c90-495c-b803-80635f2aee8a&#13;
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+co.com.choucair.certification.AUTOMATIZACIONSERENITY.tasks.RealizarLogIn.performAs(RealizarLogIn.java:22)&#13;
+co.com.choucair.certification.AUTOMATIZACIONSERENITY.stepdefinitions.CrearUsuarioStepDefinitions.realizo_logueo_de_usuario_con_Kate_y_Kate(CrearUsuarioStepDefinitions.java:45)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>

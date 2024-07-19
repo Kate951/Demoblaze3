@@ -26,3 +26,4 @@ dependencies {
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.4.3'
 }
 gradle.startParameter.continueOnFailure = true
+test.finalizedBy(aggregate)

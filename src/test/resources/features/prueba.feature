@@ -1,14 +1,15 @@
-#Autor: Juan Diego Valencia Duque
 
-@HistoriaDeUsuario
-Feature: Loggearse en maxtime
+@CreacionUsuario
+Feature: Realizar registro de usuario nuevo
 
-  Scenario Outline: Realizar loggeo en maxtime
-    Given Deseo loggearme en maxtime
-    When Ingreso las credenciales <user> y <password>
-    Then Visualizo los detalles de la cuenta <user>
+  Scenario Outline: Realizar registro en la pagina product store
+    Given Deseo realizar el registro de un usuario en la pagina de product store
+    When Realizo registro de usuario con <user> y <password>
+    And Realizo logueo de usuario con <user> y <password>
+    Then Visualizo el nombre de usuario <user>
 
     Examples:
-      | user       | password       |
-      | jvalenciad | Colpatria.JV25 |
+      | user       | password   |
+      | Katerinne7 | Katerinne7 |
+
 

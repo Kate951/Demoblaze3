@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Realizar compra de producto","Realizar compra de producto en la pagina product store","SUCCESS","2024-07-19T18:00:47.7504794-05:00[America/Bogota]","0.0","60.61"
+"Realizar registro de usuario nuevo","Realizar registro en la pagina product store","ERROR","2024-07-19T18:01:48.3627294-05:00[America/Bogota]","0.0","16.19"

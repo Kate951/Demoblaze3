@@ -12,13 +12,12 @@ public class GetUserName implements Question<String> {
     public String answeredBy(Actor actor) {
 
         userName = PaginaPrincipal.USERNAME.resolveFor(actor).getText();
-        System.out.println(userName);
+        System.out.println("PAGINA:"+userName);
 
         return userName;
     }
 
     public static GetUserName verified() {
         return new GetUserName();
-
     }
 }

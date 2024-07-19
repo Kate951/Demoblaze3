@@ -11,8 +11,9 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/prueba.feature",
-        tags = {"@HistoriaDeUsuario"},
+@CucumberOptions(features = "src/test/resources/features",
+        tags = {"@CreacionUsuario or @Compra"},
+        //tags = {"@CreacionUsuario"},
         glue = "co.com.choucair.certification.AUTOMATIZACIONSERENITY.stepdefinitions",
         snippets =  SnippetType.CAMELCASE)
 public class RunnerTags {
